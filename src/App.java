@@ -1,29 +1,12 @@
 import java.io.File;
-
-/**
- * Main application for the Data Analysis Mini‑Project.
- *
- * TODO:
- *  - Update the path to your dataset file
- *  - Read the CSV file using Scanner
- *  - Parse each row and extract the correct columns
- *  - Construct Data objects from each row
- *  - Store them in an array
- *  - Write methods to analyze the dataset (min, max, average, filters, etc.)
- *  - Print insights and answer your guiding question
- *  - Add Javadoc comments for any methods you create
- */
 public class App {
-
     public static void main(String[] args) {
-
         // TODO: Update this with your CSV file path
-        File file = new File("data/your_dataset.csv");
+        File file = new File("C:\Users\447133\Downloads\pokemon.csv");
 
-        // TODO: Create an array of Data objects to store data
+        Data[] pokedex = file;
 
-
-        // TODO: Read file using Scanner
+        Scanner scan = new Scanner();
         // - Skip header if needed
         // - Loop through rows
         // - Split each line by commas
