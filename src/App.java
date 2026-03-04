@@ -6,7 +6,7 @@ import java.io.IOException;
 public class App {
     public static void main(String[] args) {
         // TODO: Update this with your CSV file path
-        String filename = "C:\Users\447133\Downloads\pokemon.csv";
+        String filename = "/workspaces/data-analysis-project-HonoraryKacheri/pokemon.csv";
         File pokemonData = new File(filename);
 
         Scanner scan = new Scanner();

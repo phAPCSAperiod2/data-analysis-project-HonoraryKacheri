@@ -24,9 +24,4 @@ public String getTypes(){
 public int getNumber(){
     return dexNumber;
 }
-
-    // TODO: Add other data analysis methods
-
-    // TODO: Override toString() to return a readable representation of your object
-
 }
