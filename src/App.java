@@ -1,14 +1,19 @@
 import java.io.File;
+import java.io.BufferedReader;
+import java.io.FileReader;
+import java.io.IOException;
+
 public class App {
     public static void main(String[] args) {
         // TODO: Update this with your CSV file path
-        File file = new File("C:\Users\447133\Downloads\pokemon.csv");
-
-        Data[] pokedex = file;
+        String filename = "C:\Users\447133\Downloads\pokemon.csv";
+        File pokemonData = new File(filename);
 
         Scanner scan = new Scanner();
-        // - Skip header if needed
-        // - Loop through rows
+        for (int[] row : pokemonData){
+            Data pokemon = new Data();
+            for (int col : row){
+                
         // - Split each line by commas
         // - Convert text to numbers when needed
         // - Create new Data objects
