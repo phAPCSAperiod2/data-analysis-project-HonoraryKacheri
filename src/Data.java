@@ -9,7 +9,7 @@ public class Data {
 
    public Pokemon(String name, String types, int dexNumber){
        this.name = name;
-       this.type1 + this.type2 = types;
+       types = this.type1 + " " + this.type2;
        this.number = dexNumber;
    }
 
