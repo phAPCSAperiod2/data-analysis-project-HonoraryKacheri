@@ -7,6 +7,12 @@ public class Data {
     private String types;
     private int dexNumber;
 
+public Data(String name, String types, int dexNumber) {
+    this.name = name;
+    this.types = types;
+    this.dexNumber = dexNumber;
+}
+
 public String getName(){
     return name;
 }

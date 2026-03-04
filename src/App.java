@@ -14,10 +14,6 @@ public class App {
             String line;
             while ((line = br.readLine()) != null) {
                 String[] row = line.split(",");
-                String pokemonName = "";
-                String type1 = "";
-                String type2 = "";
-                int dexNumber = 0;
                 for (String col : row) {
                     pokemonName = row[0];
                 }
