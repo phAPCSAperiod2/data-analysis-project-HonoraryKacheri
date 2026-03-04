@@ -6,7 +6,6 @@ public class Data {
     private String name;
     private String types;
     private int dexNumber;
-   }
 
 public String getName(){
     return name;
