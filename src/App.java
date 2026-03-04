@@ -4,6 +4,8 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.util.Scanner;
 
+@SuppressWarnings("unused")
+
 public class App {
     public static void main(String[] args) {
         String filename = "/workspaces/data-analysis-project-HonoraryKacheri/pokemon.csv";
